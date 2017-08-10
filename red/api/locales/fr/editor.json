@@ -3,7 +3,7 @@
         "label": {
             "name": "Nom",
             "ok": "Ok",
-            "done":"Terminé",
+            "done":"Terminer",
             "cancel": "Annuler",
             "delete": "Supprimer",
             "close": "Fermer",
@@ -34,7 +34,7 @@
                 "snapGrid": "Caler sur la grille",
                 "gridSize": "Taille de la grille",
                 "textDir": "Direction du texte",
-                "defaultDir": "Defaut",
+                "defaultDir": "Défaut",
                 "ltr": "Gauche-à-droite",
                 "rtl": "Droite-à-gauche",
                 "auto": "Contextuel"
@@ -89,12 +89,12 @@
 
         "error": "<strong>Erreur</strong>: __message__",
         "errors": {
-            "lostConnection": "Lost connection to server, reconnecting...",
-            "lostConnectionReconnect": "Lost connection to server, reconnecting in __time__s.",
-            "lostConnectionTry": "Try now",
-            "cannotAddSubflowToItself": "Cannot add subflow to itself",
-            "cannotAddCircularReference": "Cannot add subflow - circular reference detected",
-            "unsupportedVersion": "Using an unsupported version of Node.js<br/>You should upgrade to the latest Node.js LTS release"
+            "lostConnection": "La connexion au serveur a été perdu, reconnexion...",
+            "lostConnectionReconnect": "La connexion au serveur a été perdue, reconnexion dans __time__s.",
+            "lostConnectionTry": "Essayez maintenant",
+            "cannotAddSubflowToItself": "Un sous-flux ne peut pas être ajouté à lui-même",
+            "cannotAddCircularReference": "Le sous-flux ne peut pas être ajouté - référence circulaire détectée",
+            "unsupportedVersion": "Votre version de Node.js n'est pas supportée<br/>Vous devriez mettre à jour à une version LTS de Node.js"
         }
     },
     "clipboard": {
@@ -121,9 +121,9 @@
             "import": "Importer vers",
             "newFlow": "nouveau flux"
         },
-        "copyMessagePath": "Path copied",
-        "copyMessageValue": "Value copied",
-        "copyMessageValue_truncated": "Truncated value copied"
+        "copyMessagePath": "Chemin copié",
+        "copyMessageValue": "Valeur copiée",
+        "copyMessageValue_truncated": "Valeur tronquée copiée"
     },
     "deploy": {
         "deploy": "Déployer",
@@ -134,206 +134,206 @@
         "modifiedNodes": "Noeuds modifiés",
         "modifiedNodesDesc": "Déploie seulement les noeuds modifiés",
         "successfulDeploy": "Déploiement réussi",
-        "deployFailed": "Deploy failed: __message__",
-        "unusedConfigNodes":"You have some unused configuration nodes.",
-        "unusedConfigNodesLink":"Click here to see them",
+        "deployFailed": "Déploiement échoué: __message__",
+        "unusedConfigNodes":"Vous avez des noeuds de configuration inutilisés.",
+        "unusedConfigNodesLink":"Cliquez ici pour les voir",
         "errors": {
-            "noResponse": "no response from server"
+            "noResponse": "pas de réponse du serveur"
         },
         "confirm": {
             "button": {
-                "ignore": "Ignore",
-                "confirm": "Confirm deploy",
-                "review": "Review changes",
-                "cancel": "Cancel",
-                "merge": "Merge",
-                "overwrite": "Ignore & deploy"
+                "ignore": "Ignorer",
+                "confirm": "Confirmer le déploiement",
+                "review": "Réviser les changements",
+                "cancel": "Annuler",
+                "merge": "Fusionner",
+                "overwrite": "Ignorer et déployer"
             },
-            "undeployedChanges": "You have undeployed changes.\n\nLeaving this page will lose these changes.",
-            "improperlyConfigured": "The workspace contains some nodes that are not properly configured:",
-            "unknown": "The workspace contains some unknown node types:",
-            "confirm": "Are you sure you want to deploy?",
-            "doNotWarn": "do not warn about this again",
-            "conflict": "The server is running a more recent set of flows.",
-            "backgroundUpdate": "The flows on the server have been updated.",
-            "conflictChecking": "Checking to see if the changes can be merged automatically",
-            "conflictAutoMerge": "The changes include no conflicts and can be merged automatically.",
-            "conflictManualMerge": "The changes include conflicts that must be resolved before they can be deployed."
+            "undeployedChanges": "Vous avez des changements non déployés.\n\nFermer cette page vous fera perdre ces changements.",
+            "improperlyConfigured": "L'aire de travail contient des noeuds qui ne sont pas configurés correctement:",
+            "unknown": "L'aire de travail contient des noeuds de types inconnus:",
+            "confirm": "Etes-vous certain de vouloir déployer ?",
+            "doNotWarn": "ne pas m'avertir à ce sujet dans le futur",
+            "conflict": "Le serveur roule une version plus récente des flux.",
+            "backgroundUpdate": "Les flux sur le serveur ont été mis à jour.",
+            "conflictChecking": "Vérification si les changements peuvent être fusionnés automatiquement",
+            "conflictAutoMerge": "Les changements ne comportent aucuns conflits et peuvent être fusionnés automatiquement.",
+            "conflictManualMerge": "Les changements comportent des conflits qui doivent être résolus avec de pouvoir déployer."
         }
     },
     "diff": {
-        "unresolvedCount": "__count__ unresolved conflict",
-        "unresolvedCount_plural": "__count__ unresolved conflicts",
-        "globalNodes": "Global nodes",
+        "unresolvedCount": "__count__ conflit non résolu",
+        "unresolvedCount_plural": "__count__ conflits non résolus",
+        "globalNodes": "Noeuds globaux",
         "flowProperties": "Propriétés de flux",
         "type": {
-            "added": "added",
-            "changed": "changed",
-            "unchanged": "unchanged",
-            "deleted": "deleted",
-            "flowDeleted": "flow deleted",
-            "flowAdded": "flow added",
-            "movedTo": "moved to __id__",
-            "movedFrom": "moved from __id__"
+            "added": "ajouté",
+            "changed": "changé",
+            "unchanged": "non changé",
+            "deleted": "supprimé",
+            "flowDeleted": "flux supprimé",
+            "flowAdded": "flow ajouté",
+            "movedTo": "déplacé vers __id__",
+            "movedFrom": "déplacé depuis __id__"
         },
-        "nodeCount": "__count__ node",
-        "nodeCount_plural": "__count__ nodes",
-        "local":"Local changes",
-        "remote":"Remote changes"
+        "nodeCount": "__count__ noeud",
+        "nodeCount_plural": "__count__ noeuds",
+        "local":"Changements locaux",
+        "remote":"Changements distants"
 
     },
     "subflow": {
-        "editSubflow": "Edit flow template: __name__",
-        "edit": "Edit flow template",
-        "subflowInstances": "There is __count__ instance of this subflow template",
-        "subflowInstances_plural": "There are __count__ instances of this subflow template",
-        "editSubflowProperties": "edit properties",
-        "input": "inputs:",
-        "output": "outputs:",
-        "deleteSubflow": "delete subflow",
+        "editSubflow": "Editer le gabarit du sous-flux: __name__",
+        "edit": "Editer le gabarit du flux",
+        "subflowInstances": "Il y a __count__ instance de ce gabarit de sous-flux",
+        "subflowInstances_plural": "Il y a __count__ instances de ce gabarit de sous-flux",
+        "editSubflowProperties": "éditer les propriétés",
+        "input": "entrées:",
+        "output": "sorties:",
+        "deleteSubflow": "supprimer le sous-flux",
         "info": "Description",
-        "format":"markdown format",
+        "format":"format markdown",
         "errors": {
-            "noNodesSelected": "<strong>Cannot create subflow</strong>: no nodes selected",
-            "multipleInputsToSelection": "<strong>Cannot create subflow</strong>: multiple inputs to selection"
+            "noNodesSelected": "<strong>Le sous-flux ne peut pas être créé</strong>: pas de noeuds sélectionnés",
+            "multipleInputsToSelection": "<strong>Le sous-flux ne peut pas être créé</strong>: plusieurs entrées dans la sélection"
         }
     },
     "editor": {
-        "configEdit": "Edit",
-        "configAdd": "Add",
-        "configUpdate": "Update",
-        "configDelete": "Delete",
-        "nodesUse": "__count__ node uses this config",
-        "nodesUse_plural": "__count__ nodes use this config",
-        "addNewConfig": "Add new __type__ config node",
-        "editNode": "Edit __type__ node",
-        "editConfig": "Edit __type__ config node",
-        "addNewType": "Add new __type__...",
-        "nodeProperties": "node properties",
-        "portLabels": "port labels",
-        "labelInputs": "Inputs",
-        "labelOutputs": "Outputs",
-        "noDefaultLabel": "none",
-        "defaultLabel": "use default label",
+        "configEdit": "Editer",
+        "configAdd": "Ajouter",
+        "configUpdate": "Mettre à jour",
+        "configDelete": "Supprimer",
+        "nodesUse": "__count__ noeud utilise cette configuration",
+        "nodesUse_plural": "__count__ utilisent cette configuration",
+        "addNewConfig": "Ajouter un nouveau noeud de configuration __type__",
+        "editNode": "Editer le noeud __type__",
+        "editConfig": "Editer le noeud de configuration __type__",
+        "addNewType": "Ajouter un nouveau __type__...",
+        "nodeProperties": "propriétés du noeud",
+        "portLabels": "Etiquettes du noeud",
+        "labelInputs": "Entrées",
+        "labelOutputs": "Sorties",
+        "noDefaultLabel": "aucune",
+        "defaultLabel": "utiliser l'étiquette par défaut",
         "errors": {
-            "scopeChange": "Changing the scope will make it unavailable to nodes in other flows that use it"
+            "scopeChange": "Changer la portée de la configuration la rendra innacessible aux noeuds dans les autres flux."
         }
     },
     "keyboard": {
-        "title": "Keyboard Shortcuts",
-        "keyboard": "Keyboard",
-        "filterActions": "filter actions",
-        "shortcut": "shortcut",
-        "scope": "scope",
-        "unassigned": "Unassigned",
-        "global": "global",
-        "workspace": "workspace",
-        "selectAll": "Select all nodes",
-        "selectAllConnected": "Select all connected nodes",
-        "addRemoveNode": "Add/remove node from selection",
-        "editSelected": "Edit selected node",
-        "deleteSelected": "Delete selected nodes or link",
-        "importNode": "Import nodes",
-        "exportNode": "Export nodes",
-        "nudgeNode": "Move selected nodes (1px)",
-        "moveNode": "Move selected nodes (20px)",
-        "toggleSidebar": "Toggle sidebar",
-        "copyNode": "Copy selected nodes",
-        "cutNode": "Cut selected nodes",
-        "pasteNode": "Paste nodes",
-        "undoChange": "Undo the last change performed",
-        "searchBox": "Open search box",
-        "managePalette": "Manage palette"
+        "title": "Raccourcis clavier",
+        "keyboard": "Clavier",
+        "filterActions": "filtrer les actions",
+        "shortcut": "raccourci",
+        "scope": "portée",
+        "unassigned": "Non assigné",
+        "global": "globale",
+        "workspace": "aire de travail",
+        "selectAll": "Sélectionner tous les noeuds",
+        "selectAllConnected": "Sélectionner tous les noeuds connectés",
+        "addRemoveNode": "Ajouter/Supprimer le noeud de la sélection",
+        "editSelected": "Editer le noeuds sélectionné",
+        "deleteSelected": "Supprimer le noeud ou lien sélectionné",
+        "importNode": "Importer les noeuds",
+        "exportNode": "Exporter les noeuds",
+        "nudgeNode": "Déplacer les noeuds sélectionnés (1px)",
+        "moveNode": "Déplacer les noeuds sélectionnés (20px)",
+        "toggleSidebar": "Activer la barre latérale",
+        "copyNode": "Copier les noeuds sélectionnés",
+        "cutNode": "Couper les noeuds sélectionnés",
+        "pasteNode": "Coller les noeuds",
+        "undoChange": "Annuler le dernier changement",
+        "searchBox": "Ouvrir la boîte de recherche",
+        "managePalette": "Configurer la palette"
     },
     "library": {
-        "openLibrary": "Open Library...",
-        "saveToLibrary": "Save to Library...",
-        "typeLibrary": "__type__ library",
+        "openLibrary": "Ouvrir la librairie...",
+        "saveToLibrary": "Sauvegarder dans la librairie...",
+        "typeLibrary": "__type__ librairie",
         "unnamedType": "Unnamed __type__",
-        "exportToLibrary": "Export nodes to library",
-        "dialogSaveOverwrite": "A __libraryType__ called __libraryName__ already exists. Overwrite?",
-        "invalidFilename": "Invalid filename",
-        "savedNodes": "Saved nodes",
-        "savedType": "Saved __type__",
-        "saveFailed": "Save failed: __message__",
+        "exportToLibrary": "Exporter les noeuds dans la librairie",
+        "dialogSaveOverwrite": "Une librairie de type __libraryType__ nommée __libraryName__ existe déjà. Remplacer ?",
+        "invalidFilename": "Nom de fichier non-valide",
+        "savedNodes": "Noeuds sauvegardés",
+        "savedType": "__type__ Sauvé",
+        "saveFailed": "Sauvegarde échouée: __message__",
 
-        "filename": "Filename",
-        "folder": "Folder",
-        "filenamePlaceholder": "file",
-        "fullFilenamePlaceholder": "a/b/file",
+        "filename": "Nom de fichier",
+        "folder": "Dossier",
+        "filenamePlaceholder": "fichier",
+        "fullFilenamePlaceholder": "a/b/fichier",
         "folderPlaceholder": "a/b",
 
-        "breadcrumb": "Library"
+        "breadcrumb": "Librairie"
     },
     "palette": {
-        "noInfo": "no information available",
+        "noInfo": "information non disponible",
         "filter": "filtrer les noeuds",
-        "search": "search modules",
+        "search": "chercher les modules",
         "label": {
-            "subflows": "subflows",
-            "input": "input",
-            "output": "output",
-            "function": "function",
+            "subflows": "sous-flux",
+            "input": "entrée",
+            "output": "sortie",
+            "function": "fonction",
             "social": "social",
-            "storage": "storage",
-            "analysis": "analysis",
-            "advanced": "advanced"
+            "storage": "stockage",
+            "analysis": "analyse",
+            "advanced": "avancé"
         },
         "event": {
-            "nodeAdded": "Node added to palette:",
-            "nodeAdded_plural": "Nodes added to palette",
-            "nodeRemoved": "Node removed from palette:",
-            "nodeRemoved_plural": "Nodes removed from palette:",
-            "nodeEnabled": "Node enabled:",
-            "nodeEnabled_plural": "Nodes enabled:",
-            "nodeDisabled": "Node disabled:",
-            "nodeDisabled_plural": "Nodes disabled:",
-            "nodeUpgraded": "Node module __module__ upgraded to version __version__"
+            "nodeAdded": "Noeud ajouté à la palette:",
+            "nodeAdded_plural": "Noeuds ajoutés à la palette",
+            "nodeRemoved": "Noeud supprimé de la palette:",
+            "nodeRemoved_plural": "Noeuds supprimés de la palette:",
+            "nodeEnabled": "Noeud activé:",
+            "nodeEnabled_plural": "Noeuds activés:",
+            "nodeDisabled": "Noeud désactivé:",
+            "nodeDisabled_plural": "Noeuds désactivés:",
+            "nodeUpgraded": "Module de noeud __module__ mis à jour à la version __version__"
         },
         "editor": {
-            "title": "Manage palette",
+            "title": "Configurer la palette",
             "palette": "Palette",
             "times": {
-                "seconds": "seconds ago",
-                "minutes": "minutes ago",
-                "minutesV": "__count__ minutes ago",
-                "hoursV": "__count__ hour ago",
-                "hoursV_plural": "__count__ hours ago",
-                "daysV": "__count__ day ago",
-                "daysV_plural": "__count__ days ago",
-                "weeksV": "__count__ week ago",
-                "weeksV_plural": "__count__ weeks ago",
-                "monthsV": "__count__ month ago",
-                "monthsV_plural": "__count__ months ago",
-                "yearsV": "__count__ year ago",
-                "yearsV_plural": "__count__ years ago",
+                "seconds": "secondes",
+                "minutes": "minutes",
+                "minutesV": "Il y a __count__ minutes",
+                "hoursV": "Il y a __count__ heure",
+                "hoursV_plural": "Il y a __count__ heures",
+                "daysV": "Il y a __count__ jour",
+                "daysV_plural": "Il y a __count__ jours",
+                "weeksV": "Il y a __count__ semaine",
+                "weeksV_plural": "Il y a __count__ semaines",
+                "monthsV": "Il y a __count__ mois",
+                "monthsV_plural": "Il y a __count__ mois",
+                "yearsV": "Il y a __count__ an",
+                "yearsV_plural": "Il y a __count__ ans",
 
-                "yearMonthsV": "__y__ year, __count__ month ago",
-                "yearMonthsV_plural": "__y__ year, __count__ months ago",
-                "yearsMonthsV": "__y__ years, __count__ month ago",
-                "yearsMonthsV_plural": "__y__ years, __count__ months ago"
+                "yearMonthsV": "Il y a __y__ an et __count__ mois",
+                "yearMonthsV_plural": "Il y a __y__ ans et __count__ mois",
+                "yearsMonthsV": "Il y a __y__ ans et __count__ mois",
+                "yearsMonthsV_plural": "Il y a __y__ ans et __count__ mois"
             },
-            "nodeCount": "__label__ node",
-            "nodeCount_plural": "__label__ nodes",
-            "moduleCount": "__count__ module available",
-            "moduleCount_plural": "__count__ modules available",
-            "inuse": "in use",
-            "enableall": "enable all",
-            "disableall": "disable all",
-            "enable": "enable",
-            "disable": "disable",
-            "remove": "remove",
-            "update": "update to __version__",
-            "updated": "updated",
-            "install": "install",
-            "installed": "installed",
-            "loading": "Loading catalogues...",
-            "tab-nodes": "Nodes",
-            "tab-install": "Install",
-            "sort": "sort:",
+            "nodeCount": "__label__ noeud",
+            "nodeCount_plural": "__label__ noeuds",
+            "moduleCount": "__count__ module disponible",
+            "moduleCount_plural": "__count__ modules disponibles",
+            "inuse": "utilisé",
+            "enableall": "tout activer",
+            "disableall": "tout désactiver",
+            "enable": "activer",
+            "disable": "désactiver",
+            "remove": "supprimer",
+            "update": "mettre à jour à la version __version__",
+            "updated": "mis à jour",
+            "install": "installer",
+            "installed": "installé",
+            "loading": "Chargement des catalogues...",
+            "tab-nodes": "Noeuds",
+            "tab-install": "Installer",
+            "sort": "trier:",
             "sortAZ": "a-z",
-            "sortRecent": "recent",
-            "more": "+ __count__ more",
+            "sortRecent": "récent",
+            "more": "+ __count__ plus",
             "errors": {
                 "catalogLoadFailed": "Failed to load node catalogue.<br>Check the browser console for more information",
                 "installFailed": "Failed to install: __module__<br>__message__<br>Check the log for more information",
@@ -344,25 +344,25 @@
             },
             "confirm": {
                 "install": {
-                    "body":"Before installing, please read the node's documentation. Some nodes have dependencies that cannot be automatically resolved and can require a restart of Node-RED. ",
-                    "title": "Install nodes"
+                    "body":"Avant d'installer, merci de lire la documentation du Noeud. Certains noeuds ont des dépendances qui ne peuent pas être installées automatiquement et requiert un redémarrage de Node-RED.",
+                    "title": "Installer les noeuds"
                 },
                 "remove": {
-                    "body":"Removing the node will uninstall it from Node-RED. The node may continue to use resources until Node-RED is restarted.",
-                    "title": "Remove nodes"
+                    "body":"Supprimer le noeud l'enlèvera définitivement de Node-RED.  Tant que Node-RED n'est pas redémarré, le noeud pourrait continuer d'utiliser des ressources.",
+                    "title": "Supprimer les noeuds"
                 },
                 "update": {
-                    "body":"Updating the node will require a restart of Node-RED to complete the update. This must be done manually.",
-                    "title": "Update nodes"
+                    "body":"La mise à jour de ce noeud requiert un rédémarrage manuel de Node-RED.",
+                    "title": "Mettre à jour les noeuds"
                 },
                 "cannotUpdate": {
-                    "body":"An update for this node is available, but it is not installed in a location that the palette manager can update.<br/><br/>Please refer to the documentation for how to update this node."
+                    "body":"Une mise à jour est disponible pour ce noeud mais l'outil d'installation ne peut accéder à son dossier.<br/><br/>Regardez la documentation pour savoir comment mettre ce noeud à jour."
                 },
                 "button": {
-                    "review": "Open node information",
-                    "install": "Install",
-                    "remove": "Remove",
-                    "update": "Update"
+                    "review": "Ouvrir l'information du noeud",
+                    "install": "Intaller",
+                    "remove": "Supprimer",
+                    "update": "Mettre à jour"
                 }
             }
 
@@ -383,7 +383,7 @@
             "instances": "Instances",
             "properties": "Propriétés",
             "info": "Information",
-            "blank": "blank",
+            "blank": "vide",
             "null": "nul",
             "showMore": "En montrer davantage",
             "showLess": "En montrer moins",
@@ -393,64 +393,64 @@
             "showTips":"Vous pouvez ouvrir les astuces à partir du panneau de préférences"
         },
         "config": {
-            "name": "Configuration nodes",
-            "label": "config",
-            "global": "On all flows",
-            "none": "none",
-            "subflows": "subflows",
-            "flows": "flows",
-            "filterUnused":"unused",
-            "filterAll":"all",
-            "filtered": "__count__ hidden"
+            "name": "Noeuds de configuration",
+            "label": "configuration",
+            "global": "Sur tous les flux",
+            "none": "aucun",
+            "subflows": "sous-flux",
+            "flows": "flux",
+            "filterUnused":"inutilisés",
+            "filterAll":"tous",
+            "filtered": "__count__ cachés"
         },
         "palette": {
-            "name": "Palette management",
+            "name": "Configuration de la palette",
             "label": "palette"
         }
     },
     "typedInput": {
         "type": {
-            "str": "string",
-            "num": "number",
-            "re": "regular expression",
-            "bool": "boolean",
+            "str": "chaîne de caractères",
+            "num": "nombre",
+            "re": "expression régulière",
+            "bool": "booléen",
             "json": "JSON",
-            "bin": "buffer",
-            "date": "timestamp"
+            "bin": "tampon",
+            "date": "horodatage"
         }
     },
     "editableList": {
-        "add": "add"
+        "add": "ajouter"
     },
     "search": {
-        "empty": "No matches found",
-        "addNode": "add a node..."
+        "empty": "Pas de résultats trouvés",
+        "addNode": "ajouter un noeud..."
     },
     "expressionEditor": {
-        "functions": "Functions",
-        "insert": "Insert",
-        "title": "JSONata Expression editor",
-        "data": "Example message",
-        "result": "Result",
-        "format": "format expression",
-        "compatMode": "Compatibility mode enabled",
-        "compatModeDesc": "<h3>JSONata compatibility mode</h3><p> The current expression appears to still reference <code>msg</code> so will be evaluated in compatibility mode. Please update the expression to not use <code>msg</code> as this mode will be removed in the future.</p><p> When JSONata support was first added to Node-RED, it required the expression to reference the <code>msg</code> object. For example <code>msg.payload</code> would be used to access the payload.</p><p> That is no longer necessary as the expression will be evaluated against the message directly. To access the payload, the expression should be just <code>payload</code>.</p>",
-        "noMatch": "No matching result",
+        "functions": "Fonctions",
+        "insert": "Insérer",
+        "title": "Editeur d'expression JSONata",
+        "data": "Message d'exemple",
+        "result": "Résultat",
+        "format": "expression format",
+        "compatMode": "Mode de compatibilité activé",
+        "compatModeDesc": "<h3>Mode de compatibilité JSONata</h3><p> L'expression courante fait toujours référence à <code>msg</code> et sera évaluée en mode compatibilité. Merci de mettre à jour l'expression pour ne pas utiliser <code>msg</code> car ce mode sera retiré dans le futur.</p><p> Quand JSONata a été ajouté à Node-RED, l'expression devait faire référence à l'objet <code>msg</code>. Par exemple, <code>msg.payload</code> aurait été utilisé pour accéder au payload.</p><p> Il n'est plus nécéssaire de faire ceci. Pour accéder au payload on peut simplement écrire <code>payload</code>.</p>",
+        "noMatch": "Pas de résultats trouvés",
         "errors": {
-            "invalid-expr": "Invalid JSONata expression:\n  __message__",
-            "invalid-msg": "Invalid example JSON message:\n  __message__",
-            "context-unsupported": "Cannot test context functions\n $flowContext or $globalContext",
-            "eval": "Error evaluating expression:\n  __message__"
+            "invalid-expr": "Expression JSONata non valide:\n  __message__",
+            "invalid-msg": "Exemple de message JSON non valide:\n  __message__",
+            "context-unsupported": "Les fonctions de contexte\n $flowContext ou $globalContext ne peuvent pas être testées",
+            "eval": "Erreur lors de l'évaluation de l'expression:\n  __message__"
         }
     },
     "jsonEditor": {
-        "title": "JSON editor",
-        "format": "format JSON"
+        "title": "Editeur JSON",
+        "format": "Format JSON"
     },
     "bufferEditor": {
-        "title": "Buffer editor",
-        "modeString": "Handle as UTF-8 String",
-        "modeArray": "Handle as JSON array",
-        "modeDesc":"<h3>Buffer editor</h3><p>The Buffer type is stored as a JSON array of byte values. The editor will attempt to parse the entered value as a JSON array. If it is not valid JSON, it will be treated as a UTF-8 String and converted to an array of the individual character code points.</p><p>For example, a value of <code>Hello World</code> will be converted to the JSON array:<pre>[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]</pre></p>"
+        "title": "Editeur de tampon",
+        "modeString": "Considérer comme une chaîne de caractères UTF-8",
+        "modeArray": "Considérer comme un tableau JSON",
+        "modeDesc":"<h3>Editeur de tampon</h3><p>Le type Tampon (Buffer) est stocké en tant que tableau JSON d'octets. L'editeur tentera de décoder la valeur entrée comme tableau JSON. Si ce n'est pas du JSON valide, la valeur entrée sera traitée comme une chaîne de caractères UTF-8 et chaque valeur sera convertie en code de caractère.</p><p>Par exemple, la chaîne <code>Hello World</code> sera convertie en tableau JSON:<pre>[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]</pre></p>"
     }
 }
