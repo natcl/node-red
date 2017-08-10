@@ -1,23 +1,23 @@
 {
     "info": {
-        "tip0" : "Vous pouvez supprimer les noeuds ou liens sélectionnés avec {{core:delete-selection}}",
-        "tip1" : "Chercher dans les noeuds avec {{core:search}}",
+        "tip0" : "Vous pouvez supprimer les nœuds ou liens sélectionnés avec {{core:delete-selection}}",
+        "tip1" : "Chercher dans les nœuds avec {{core:search}}",
         "tip2" : "{{core:toggle-sidebar}} activera ou désactivera cette barre latérale",
-        "tip3" : "Vous pouvez configurer la palette des noeuds avec {{core:manage-palette}}",
-        "tip4" : "Les noeuds de configuration de flux sont listés dans la barre latérale. Vous pouvez y accéder à partir du menu avec {{core:show-config-tab}}",
+        "tip3" : "Vous pouvez configurer la palette des nœuds avec {{core:manage-palette}}",
+        "tip4" : "Les nœuds de configuration de flux sont listés dans la barre latérale. Vous pouvez y accéder à partir du menu avec {{core:show-config-tab}}",
         "tip5" : "Vous pouvez activer ou désactiver ces astuces à partir du menu",
-        "tip6" : "Vous pouvez bouger les noeuds sélectionnés avec les touches [gauche] [haute] [bas] and [droite]. Tenez [shift] pour bouger plus loin",
-        "tip7" : "Si vous glissez un noeud sur un fil il y sera inséré",
-        "tip8" : "Vous pouvez exporter les noeuds sélectionnés ou l'onglet courant avec {{core:show-export-dialog}}",
+        "tip6" : "Vous pouvez bouger les nœuds sélectionnés avec les touches [gauche] [haute] [bas] and [droite]. Tenez [shift] pour bouger plus loin",
+        "tip7" : "Si vous glissez un nœud sur un fil il y sera inséré",
+        "tip8" : "Vous pouvez exporter les nœuds sélectionnés ou l'onglet courant avec {{core:show-export-dialog}}",
         "tip9" : "Vous pouvez importer un flux en glissant son contenu JSON dans l'espace de travail ou avec {{core:show-import-dialog}}",
         "tip10" : "Vous pouvez utiliser [maj] [clic] sur les fils d'un port pour bouger tous ces fils ou seulement celui qui est sélectionné",
         "tip11" : "Afficher l'onglet informations avec {{core:show-info-tab}} ou l'onglet Debug avec {{core:show-debug-tab}}",
         "tip12" : "[ctrl] [clic] dans l'aire de travail affichera le menu d'ajout rapide",
-        "tip13" : "Tenez [ctrl] lorsque vous [cliquez] sur le port d'un noeud pour activer le filage rapide",
-        "tip14" : "Tenez [maj] lorsque vous [cliquez] sur un noeud pour sélectionner tous les noeuds du flux",
-        "tip15" : "Tenez [ctrl] lorsque vous [cliquez] sur un noeud pour l'enlever ou l'ajouter à la sélection",
+        "tip13" : "Tenez [ctrl] lorsque vous [cliquez] sur le port d'un nœud pour activer le filage rapide",
+        "tip14" : "Tenez [maj] lorsque vous [cliquez] sur un nœud pour sélectionner tous les nœuds du flux",
+        "tip15" : "Tenez [ctrl] lorsque vous [cliquez] sur un nœud pour l'enlever ou l'ajouter à la sélection",
         "tip16" : "Naviguez entre les onglets de flux avec {{core:show-previous-tab}} et {{core:show-next-tab}}",
-        "tip17" : "Vous pouvez confirmer vos changement dans l'éditeur de noeuds avec {{core:confirm-edit-tray}} ou annuler avec {{core:cancel-edit-tray}}",
-        "tip18" : "Appuyez sur {{core:edit-selected-node}} vous permettra d'éditer le premier noeud sélectionné"
+        "tip17" : "Vous pouvez confirmer vos changement dans l'éditeur de nœuds avec {{core:confirm-edit-tray}} ou annuler avec {{core:cancel-edit-tray}}",
+        "tip18" : "Appuyez sur {{core:edit-selected-node}} vous permettra d'éditer le premier nœud sélectionné"
     }
 }

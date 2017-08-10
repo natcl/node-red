@@ -44,9 +44,9 @@
             },
             "settings": "Préférences",
             "userSettings": "Préférences d'utilisateur",
-            "nodes": "Noeuds",
-            "displayStatus": "Afficher le statut des noeuds",
-            "displayConfig": "Noeuds de configuration",
+            "nodes": "Nœuds",
+            "displayStatus": "Afficher le statut des nœuds",
+            "displayConfig": "Nœuds de configuration",
             "import": "Importer",
             "export": "Exporter",
             "search": "Chercher dans les flux",
@@ -81,9 +81,9 @@
     "notification": {
         "warning": "<strong>Alerte</strong>: __message__",
         "warnings": {
-            "undeployedChanges": "le noeud à des changements non déployés",
-            "nodeActionDisabled": "les actions de noeuds sont désactivées dans un sous-flux",
-            "missing-types": "Les flux ont été arrêtés car des types de noeuds manquent. Vérifier le journal pour les détails.",
+            "undeployedChanges": "le nœud à des changements non déployés",
+            "nodeActionDisabled": "les actions de nœuds sont désactivées dans un sous-flux",
+            "missing-types": "Les flux ont été arrêtés car des types de nœuds manquent. Vérifier le journal pour les détails.",
             "restartRequired": "Node-RED doit être reparti pour activer la mise à jour des modules"
         },
 
@@ -98,19 +98,19 @@
         }
     },
     "clipboard": {
-        "nodes": "Noeuds",
+        "nodes": "Nœuds",
         "selectNodes": "Sélectionner le texte ci-dessus et copier vers le presse-papier",
-        "pasteNodes": "Coller les noeuds ici",
-        "importNodes": "Importer les noeuds",
-        "exportNodes": "Exporter les noeuds vers le presse-papier",
+        "pasteNodes": "Coller les nœuds ici",
+        "importNodes": "Importer les nœuds",
+        "exportNodes": "Exporter les nœuds vers le presse-papier",
         "importUnrecognised": "Type importé non reconnu:",
         "importUnrecognised_plural": "Types importés non reconnus:",
-        "nodesExported": "Noeuds exportés vers le presse-papier",
-        "nodeCopied": "__count__ noeud copié",
-        "nodeCopied_plural": "__count__ noeuds copiés",
+        "nodesExported": "Nœuds exportés vers le presse-papier",
+        "nodeCopied": "__count__ nœud copié",
+        "nodeCopied_plural": "__count__ nœuds copiés",
         "invalidFlow": "Flux invalide __message__",
         "export": {
-            "selected":"noeuds sélectionnés",
+            "selected":"nœuds sélectionnés",
             "current":"flux courant",
             "all":"tous les flux",
             "compact":"compact",
@@ -130,12 +130,12 @@
         "full": "Complet",
         "fullDesc": "Déploie tout dans l'espace de travail",
         "modifiedFlows": "Flux modifiés",
-        "modifiedFlowsDesc": "Déploie les flux avec des noeuds modifiés",
-        "modifiedNodes": "Noeuds modifiés",
-        "modifiedNodesDesc": "Déploie seulement les noeuds modifiés",
+        "modifiedFlowsDesc": "Déploie les flux avec des nœuds modifiés",
+        "modifiedNodes": "Nœuds modifiés",
+        "modifiedNodesDesc": "Déploie seulement les nœuds modifiés",
         "successfulDeploy": "Déploiement réussi",
         "deployFailed": "Déploiement échoué: __message__",
-        "unusedConfigNodes":"Vous avez des noeuds de configuration inutilisés.",
+        "unusedConfigNodes":"Vous avez des nœuds de configuration inutilisés.",
         "unusedConfigNodesLink":"Cliquez ici pour les voir",
         "errors": {
             "noResponse": "pas de réponse du serveur"
@@ -150,8 +150,8 @@
                 "overwrite": "Ignorer et déployer"
             },
             "undeployedChanges": "Vous avez des changements non déployés.\n\nFermer cette page vous fera perdre ces changements.",
-            "improperlyConfigured": "L'aire de travail contient des noeuds qui ne sont pas configurés correctement:",
-            "unknown": "L'aire de travail contient des noeuds de types inconnus:",
+            "improperlyConfigured": "L'aire de travail contient des nœuds qui ne sont pas configurés correctement:",
+            "unknown": "L'aire de travail contient des nœuds de types inconnus:",
             "confirm": "Etes-vous certain de vouloir déployer ?",
             "doNotWarn": "ne pas m'avertir à ce sujet dans le futur",
             "conflict": "Le serveur roule une version plus récente des flux.",
@@ -164,7 +164,7 @@
     "diff": {
         "unresolvedCount": "__count__ conflit non résolu",
         "unresolvedCount_plural": "__count__ conflits non résolus",
-        "globalNodes": "Noeuds globaux",
+        "globalNodes": "Nœuds globaux",
         "flowProperties": "Propriétés de flux",
         "type": {
             "added": "ajouté",
@@ -176,8 +176,8 @@
             "movedTo": "déplacé vers __id__",
             "movedFrom": "déplacé depuis __id__"
         },
-        "nodeCount": "__count__ noeud",
-        "nodeCount_plural": "__count__ noeuds",
+        "nodeCount": "__count__ nœud",
+        "nodeCount_plural": "__count__ nœuds",
         "local":"Changements locaux",
         "remote":"Changements distants"
 
@@ -194,7 +194,7 @@
         "info": "Description",
         "format":"format markdown",
         "errors": {
-            "noNodesSelected": "<strong>Le sous-flux ne peut pas être créé</strong>: pas de noeuds sélectionnés",
+            "noNodesSelected": "<strong>Le sous-flux ne peut pas être créé</strong>: pas de nœuds sélectionnés",
             "multipleInputsToSelection": "<strong>Le sous-flux ne peut pas être créé</strong>: plusieurs entrées dans la sélection"
         }
     },
@@ -203,20 +203,20 @@
         "configAdd": "Ajouter",
         "configUpdate": "Mettre à jour",
         "configDelete": "Supprimer",
-        "nodesUse": "__count__ noeud utilise cette configuration",
+        "nodesUse": "__count__ nœud utilise cette configuration",
         "nodesUse_plural": "__count__ utilisent cette configuration",
-        "addNewConfig": "Ajouter un nouveau noeud de configuration __type__",
-        "editNode": "Editer le noeud __type__",
-        "editConfig": "Editer le noeud de configuration __type__",
+        "addNewConfig": "Ajouter un nouveau nœud de configuration __type__",
+        "editNode": "Editer le nœud __type__",
+        "editConfig": "Editer le nœud de configuration __type__",
         "addNewType": "Ajouter un nouveau __type__...",
-        "nodeProperties": "propriétés du noeud",
-        "portLabels": "Etiquettes du noeud",
+        "nodeProperties": "propriétés du nœud",
+        "portLabels": "Etiquettes du nœud",
         "labelInputs": "Entrées",
         "labelOutputs": "Sorties",
         "noDefaultLabel": "aucune",
         "defaultLabel": "utiliser l'étiquette par défaut",
         "errors": {
-            "scopeChange": "Changer la portée de la configuration la rendra innacessible aux noeuds dans les autres flux."
+            "scopeChange": "Changer la portée de la configuration la rendra innacessible aux nœuds dans les autres flux."
         }
     },
     "keyboard": {
@@ -228,19 +228,19 @@
         "unassigned": "Non assigné",
         "global": "globale",
         "workspace": "aire de travail",
-        "selectAll": "Sélectionner tous les noeuds",
-        "selectAllConnected": "Sélectionner tous les noeuds connectés",
-        "addRemoveNode": "Ajouter/Supprimer le noeud de la sélection",
-        "editSelected": "Editer le noeuds sélectionné",
-        "deleteSelected": "Supprimer le noeud ou lien sélectionné",
-        "importNode": "Importer les noeuds",
-        "exportNode": "Exporter les noeuds",
-        "nudgeNode": "Déplacer les noeuds sélectionnés (1px)",
-        "moveNode": "Déplacer les noeuds sélectionnés (20px)",
+        "selectAll": "Sélectionner tous les nœuds",
+        "selectAllConnected": "Sélectionner tous les nœuds connectés",
+        "addRemoveNode": "Ajouter/Supprimer le nœud de la sélection",
+        "editSelected": "Editer le nœuds sélectionné",
+        "deleteSelected": "Supprimer le nœud ou lien sélectionné",
+        "importNode": "Importer les nœuds",
+        "exportNode": "Exporter les nœuds",
+        "nudgeNode": "Déplacer les nœuds sélectionnés (1px)",
+        "moveNode": "Déplacer les nœuds sélectionnés (20px)",
         "toggleSidebar": "Activer la barre latérale",
-        "copyNode": "Copier les noeuds sélectionnés",
-        "cutNode": "Couper les noeuds sélectionnés",
-        "pasteNode": "Coller les noeuds",
+        "copyNode": "Copier les nœuds sélectionnés",
+        "cutNode": "Couper les nœuds sélectionnés",
+        "pasteNode": "Coller les nœuds",
         "undoChange": "Annuler le dernier changement",
         "searchBox": "Ouvrir la boîte de recherche",
         "managePalette": "Configurer la palette"
@@ -250,10 +250,10 @@
         "saveToLibrary": "Sauvegarder dans la librairie...",
         "typeLibrary": "__type__ librairie",
         "unnamedType": "Unnamed __type__",
-        "exportToLibrary": "Exporter les noeuds dans la librairie",
+        "exportToLibrary": "Exporter les nœuds dans la librairie",
         "dialogSaveOverwrite": "Une librairie de type __libraryType__ nommée __libraryName__ existe déjà. Remplacer ?",
         "invalidFilename": "Nom de fichier non-valide",
-        "savedNodes": "Noeuds sauvegardés",
+        "savedNodes": "Nœuds sauvegardés",
         "savedType": "__type__ Sauvé",
         "saveFailed": "Sauvegarde échouée: __message__",
 
@@ -267,7 +267,7 @@
     },
     "palette": {
         "noInfo": "information non disponible",
-        "filter": "filtrer les noeuds",
+        "filter": "filtrer les nœuds",
         "search": "chercher les modules",
         "label": {
             "subflows": "sous-flux",
@@ -280,15 +280,15 @@
             "advanced": "avancé"
         },
         "event": {
-            "nodeAdded": "Noeud ajouté à la palette:",
-            "nodeAdded_plural": "Noeuds ajoutés à la palette",
-            "nodeRemoved": "Noeud supprimé de la palette:",
-            "nodeRemoved_plural": "Noeuds supprimés de la palette:",
-            "nodeEnabled": "Noeud activé:",
-            "nodeEnabled_plural": "Noeuds activés:",
-            "nodeDisabled": "Noeud désactivé:",
-            "nodeDisabled_plural": "Noeuds désactivés:",
-            "nodeUpgraded": "Module de noeud __module__ mis à jour à la version __version__"
+            "nodeAdded": "Nœud ajouté à la palette:",
+            "nodeAdded_plural": "Nœuds ajoutés à la palette",
+            "nodeRemoved": "Nœud supprimé de la palette:",
+            "nodeRemoved_plural": "Nœuds supprimés de la palette:",
+            "nodeEnabled": "Nœud activé:",
+            "nodeEnabled_plural": "Nœuds activés:",
+            "nodeDisabled": "Nœud désactivé:",
+            "nodeDisabled_plural": "Nœuds désactivés:",
+            "nodeUpgraded": "Module de nœud __module__ mis à jour à la version __version__"
         },
         "editor": {
             "title": "Configurer la palette",
@@ -313,8 +313,8 @@
                 "yearsMonthsV": "Il y a __y__ ans et __count__ mois",
                 "yearsMonthsV_plural": "Il y a __y__ ans et __count__ mois"
             },
-            "nodeCount": "__label__ noeud",
-            "nodeCount_plural": "__label__ noeuds",
+            "nodeCount": "__label__ nœud",
+            "nodeCount_plural": "__label__ nœuds",
             "moduleCount": "__count__ module disponible",
             "moduleCount_plural": "__count__ modules disponibles",
             "inuse": "utilisé",
@@ -328,7 +328,7 @@
             "install": "installer",
             "installed": "installé",
             "loading": "Chargement des catalogues...",
-            "tab-nodes": "Noeuds",
+            "tab-nodes": "Nœuds",
             "tab-install": "Installer",
             "sort": "trier:",
             "sortAZ": "a-z",
@@ -344,22 +344,22 @@
             },
             "confirm": {
                 "install": {
-                    "body":"Avant d'installer, merci de lire la documentation du Noeud. Certains noeuds ont des dépendances qui ne peuent pas être installées automatiquement et requiert un redémarrage de Node-RED.",
-                    "title": "Installer les noeuds"
+                    "body":"Avant d'installer, merci de lire la documentation du Nœud. Certains nœuds ont des dépendances qui ne peuent pas être installées automatiquement et requiert un redémarrage de Node-RED.",
+                    "title": "Installer les nœuds"
                 },
                 "remove": {
-                    "body":"Supprimer le noeud l'enlèvera définitivement de Node-RED.  Tant que Node-RED n'est pas redémarré, le noeud pourrait continuer d'utiliser des ressources.",
-                    "title": "Supprimer les noeuds"
+                    "body":"Supprimer le nœud l'enlèvera définitivement de Node-RED.  Tant que Node-RED n'est pas redémarré, le nœud pourrait continuer d'utiliser des ressources.",
+                    "title": "Supprimer les nœuds"
                 },
                 "update": {
-                    "body":"La mise à jour de ce noeud requiert un rédémarrage manuel de Node-RED.",
-                    "title": "Mettre à jour les noeuds"
+                    "body":"La mise à jour de ce nœud requiert un rédémarrage manuel de Node-RED.",
+                    "title": "Mettre à jour les nœuds"
                 },
                 "cannotUpdate": {
-                    "body":"Une mise à jour est disponible pour ce noeud mais l'outil d'installation ne peut accéder à son dossier.<br/><br/>Regardez la documentation pour savoir comment mettre ce noeud à jour."
+                    "body":"Une mise à jour est disponible pour ce nœud mais l'outil d'installation ne peut accéder à son dossier.<br/><br/>Regardez la documentation pour savoir comment mettre ce nœud à jour."
                 },
                 "button": {
-                    "review": "Ouvrir l'information du noeud",
+                    "review": "Ouvrir l'information du nœud",
                     "install": "Intaller",
                     "remove": "Supprimer",
                     "update": "Mettre à jour"
@@ -370,10 +370,10 @@
     },
     "sidebar": {
         "info": {
-            "name": "Information sur le noeud",
+            "name": "Information sur le nœud",
             "tabName": "Nom",
             "label": "info",
-            "node": "Noeud",
+            "node": "Nœud",
             "type": "Type",
             "id": "ID",
             "status": "Statut",
@@ -393,7 +393,7 @@
             "showTips":"Vous pouvez ouvrir les astuces à partir du panneau de préférences"
         },
         "config": {
-            "name": "Noeuds de configuration",
+            "name": "Nœuds de configuration",
             "label": "configuration",
             "global": "Sur tous les flux",
             "none": "aucun",
@@ -424,7 +424,7 @@
     },
     "search": {
         "empty": "Pas de résultats trouvés",
-        "addNode": "ajouter un noeud..."
+        "addNode": "ajouter un nœud..."
     },
     "expressionEditor": {
         "functions": "Fonctions",
