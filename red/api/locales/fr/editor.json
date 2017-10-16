@@ -172,7 +172,7 @@
             "unchanged": "non changé",
             "deleted": "supprimé",
             "flowDeleted": "flux supprimé",
-            "flowAdded": "flow ajouté",
+            "flowAdded": "flux ajouté",
             "movedTo": "déplacé vers __id__",
             "movedFrom": "déplacé depuis __id__"
         },
@@ -360,7 +360,7 @@
                 },
                 "button": {
                     "review": "Ouvrir l'information du nœud",
-                    "install": "Intaller",
+                    "install": "Installer",
                     "remove": "Supprimer",
                     "update": "Mettre à jour"
                 }
@@ -449,8 +449,8 @@
     },
     "bufferEditor": {
         "title": "Editeur de tampon",
-        "modeString": "Considérer comme une chaîne de caractères UTF-8",
-        "modeArray": "Considérer comme un tableau JSON",
+        "modeString": "Considéré comme une chaîne de caractères UTF-8",
+        "modeArray": "Considéré comme un tableau JSON",
         "modeDesc":"<h3>Editeur de tampon</h3><p>Le type Tampon (Buffer) est stocké en tant que tableau JSON d'octets. L'editeur tentera de décoder la valeur entrée comme tableau JSON. Si ce n'est pas du JSON valide, la valeur entrée sera traitée comme une chaîne de caractères UTF-8 et chaque valeur sera convertie en code de caractère.</p><p>Par exemple, la chaîne <code>Hello World</code> sera convertie en tableau JSON:<pre>[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]</pre></p>"
     }
 }
