@@ -127,268 +127,269 @@
         }
     },
     "link": {
-        "linkIn": "link in",
-        "linkOut": "link out",
+        "linkIn": "lien entrant",
+        "linkOut": "lien sortant",
         "label": {
-            "event": "Event name",
-            "node": "name",
-            "type": "flow",
-            "sortByFlow":"Sort by flow",
-            "sortByLabel": "Sort by name"
+            "event": "Nom d'événement",
+            "node": "nom",
+            "type": "flux",
+            "sortByFlow":"Trié par flux",
+            "sortByLabel": "Trié par nom"
         }
     },
     "tls": {
-        "tls": "TLS configuration",
+        "tls": "Configuration TLS",
         "label": {
-            "use-local-files": "Use key and certificates from local files",
-            "upload": "Upload",
-            "cert": "Certificate",
-            "key": "Private Key",
-            "ca": "CA Certificate",
-            "verify-server-cert":"Verify server certificate"
+            "use-local-files": "Utiliser la clef et les certificats à partir de fichiers locaux",
+            "upload": "Téléverser",
+            "cert": "Certificat",
+            "key": "Clef privée",
+            "ca": "Certificat CA",
+            "verify-server-cert":"Vérifier le certificat du serveur"
         },
         "placeholder": {
-            "cert":"path to certificate (PEM format)",
-            "key":"path to private key (PEM format)",
-            "ca":"path to CA certificate (PEM format)"
+            "cert":"Chemin vers le certificat (Format PEM)",
+            "key":"Chemin vers la clef privée (Format PEM)",
+            "ca":"Chemin vers le certificat CA (Format PEM)"
         },
         "error": {
-            "missing-file": "No certificate/key file provided"
+            "missing-file": "Pas de certificat/clef fourni"
         }
     },
     "exec": {
         "label": {
-            "command": "Command",
-            "append": "Append",
-            "timeout": "Timeout",
-            "timeoutplace": "optional",
-            "return": "Output",
-            "seconds": "seconds"
+            "command": "Commande",
+            "append": "Ajouter",
+            "timeout": "Délai d'attente",
+            "timeoutplace": "optionnel",
+            "return": "Sortie",
+            "seconds": "secondes"
         },
         "placeholder": {
-            "extraparams": "extra input parameters"
+            "extraparams": "paramètres d'entrée supplémentaires"
         },
         "opt": {
-            "exec": "when the command is complete - exec mode",
-            "spawn": "while the command is running - spawn mode"
+            "exec": "quand la commande est complétée - mode exec",
+            "spawn": "pendant que la commande s'éxécute- mode spawn"
         },
-        "oldrc": "Use old style output (compatibility mode)"
+        "oldrc": "Utiliser l'ancien mode de sortie (mode compatible)"
     },
     "function": {
         "label": {
-            "function": "Function",
-            "outputs": "Outputs"
+            "function": "Fonction",
+            "outputs": "Sorties"
         },
         "error": {
-            "inputListener":"Cannot add listener to 'input' event within Function",
-            "non-message-returned":"Function tried to send a message of type __type__"
+            "inputListener":"Impossible d'ajouter un auditeur à l'énénement 'input' à l'intérieur d'une fonction",
+            "non-message-returned":"La fonction a tenté d'envoyer un message de type __type__"
         },
-        "tip": "See the Info tab for help writing functions."
+        "tip": "Voir l'onglet Info pour de l'aide sur l'écriture de fonctions."
     },
     "template": {
         "label": {
-            "template": "Template",
-            "property": "Set property",
-            "format": "Syntax Highlight",
+            "template": "Modèle",
+            "property": "Propriété",
+            "format": "Coloration syntaxique",
             "syntax": "Format",
-            "output": "Output as",
-            "mustache": "Mustache template",
-            "plain": "Plain text",
-            "json": "Parsed JSON",
-            "none": "none"
+            "output": "Sortie",
+            "mustache": "Modèle mustache",
+            "plain": "Texte brut",
+            "json": "JSON converti",
+            "yaml": "YAML converti",
+            "none": "aucun"
         },
-        "templatevalue": "This is the payload: {{payload}} !"
+        "templatevalue": "Ceci est le payload: {{payload}} !"
     },
     "delay": {
         "action": "Action",
-        "for": "For",
-        "delaymsg": "Delay each message",
-        "delayfixed": "Fixed delay",
-        "delayvarmsg": "Set delay with msg.delay",
-        "randomdelay": "Random delay",
-        "limitrate": "Rate Limit",
-        "limitall": "All messages",
-        "limittopic": "For each msg.topic",
-        "fairqueue": "Send each topic in turn",
-        "timedqueue": "Send all topics",
-        "milisecs": "Miliseconds",
-        "secs": "Seconds",
-        "sec": "Second",
+        "for": "Pour",
+        "delaymsg": "Délayer chaque message",
+        "delayfixed": "Délai fixe",
+        "delayvarmsg": "Utiliser msg.delay pour fixé le délai",
+        "randomdelay": "Délai aléatoire",
+        "limitrate": "Limiter le débit",
+        "limitall": "Tous les message",
+        "limittopic": "Pour chaque msg.topic",
+        "fairqueue": "Envoyer chaque topic un à la suite de l'autre",
+        "timedqueue": "Envoyer tous les topics",
+        "milisecs": "Milisecondes",
+        "secs": "Secondes",
+        "sec": "Seconde",
         "mins": "Minutes",
         "min": "Minute",
-        "hours": "Hours",
-        "hour": "Hour",
-        "days": "Days",
-        "day": "Day",
-        "between": "Between",
-        "and": "&",
-        "rate": "Rate",
-        "msgper": "msg(s) per",
-        "dropmsg": "drop intermediate messages",
+        "hours": "Heures",
+        "hour": "Heur",
+        "days": "Jours",
+        "day": "Jour",
+        "between": "Entre",
+        "and": "et",
+        "rate": "Débit",
+        "msgper": "msg(s) par",
+        "dropmsg": "ignorer les messages intermédiaires",
         "label": {
-            "delay": "delay",
+            "delay": "délai",
             "variable": "variable",
-            "limit": "limit",
-            "limitTopic": "limit topic",
-            "random": "random",
+            "limit": "limite",
+            "limitTopic": "limite topic",
+            "random": "aléatoire",
             "units" : {
                 "second": {
-                    "plural" : "Seconds",
-                    "singular": "Second"
+                    "plural" : "Secondes",
+                    "singular": "Seconde"
                 },
                 "minute": {
                     "plural" : "Minutes",
                     "singular": "Minute"
                 },
                 "hour": {
-                    "plural" : "Hours",
-                    "singular": "Hour"
+                    "plural" : "Heures",
+                    "singular": "Heure"
                 },
                 "day": {
-                    "plural" : "Days",
-                    "singular": "Day"
+                    "plural" : "Jours",
+                    "singular": "Jour"
                 }
             }
         },
         "error": {
-            "buffer": "buffer exceeded 1000 messages",
-            "buffer1": "buffer exceeded 10000 messages"
+            "buffer": "le tampon a excédé 1000 messages",
+            "buffer1": "le tampon a excédé 10000 messages"
         }
     },
     "trigger": {
-        "send": "Send",
-        "then": "then",
-        "then-send": "then send",
+        "send": "Envoyer",
+        "then": "ensuite",
+        "then-send": "et envoyer",
         "output": {
-            "string": "the string",
-            "number": "the number",
-            "existing": "the existing msg object",
-            "original": "the original msg object",
-            "latest": "the latest msg object",
-            "nothing": "nothing"
+            "string": "la chaîne de caractères",
+            "number": "le nombre",
+            "existing": "l'objet msg existant",
+            "original": "l'objet msg initial",
+            "latest": "l'objet msg le plus récent",
+            "nothing": "rien"
         },
-        "wait-reset": "wait to be reset",
-        "wait-for": "wait for",
-        "wait-loop": "resend it every",
+        "wait-reset": "attendre d'être ré-initialisé",
+        "wait-for": "attendre",
+        "wait-loop": "ré-envoyer chaque",
         "duration": {
-            "ms": "Milliseconds",
-            "s": "Seconds",
+            "ms": "Millisecondse",
+            "s": "Secondes",
             "m": "Minutes",
-            "h": "Hours"
+            "h": "Heures"
         },
-        "extend": " extend delay if new message arrives",
+        "extend": " prolonger le délai à l'arrivée d'un nouveau message",
         "label": {
-            "trigger": "trigger",
-            "trigger-block": "trigger & block",
-            "trigger-loop": "resend every",
-            "reset": "Reset the trigger if:",
-            "resetMessage":"msg.reset is set",
-            "resetPayload":"msg.payload equals",
-            "resetprompt": "optional"
+            "trigger": "déclencher",
+            "trigger-block": "déclencher et bloquer",
+            "trigger-loop": "ré-envoyer chaque",
+            "reset": "Ré-initialiser le déclencheur si:",
+            "resetMessage":"msg.reset est assigné",
+            "resetPayload":"msg.payload vaut",
+            "resetprompt": "facultatif"
         }
     },
     "comment": {
         "label": {
-            "title": "Title",
-            "body": "Body"
+            "title": "Titre",
+            "body": "Corps"
         },
-        "tip": "Tip: The body text can be styled as <a href=\"https://help.github.com/articles/markdown-basics/\" target=\"_blank\">Github flavoured Markdown</a>"
+        "tip": "Conseil: Le corps du texte peut être stylisé en <a href=\"https://help.github.com/articles/markdown-basics/\" target=\"_blank\">Markdown de style Github</a>"
     },
     "unknown": {
         "label": {
-            "unknown": "unknown"
+            "unknown": "inconnu"
         },
-        "tip": "<p>This node is a type unknown to your installation of Node-RED.</p><p><i>If you deploy with the node in this state, it's configuration will be preserved, but the flow will not start until the missing type is installed.</i></p><p>See the Info side bar for more help</p>"
+        "tip": "<p>Ce noeud est inconnu de votre installation de Node-RED.</p><p><i>Si vous déployez, la configuration du noeud sera préservée mais les flux ne rouleront pas tant que ce type de noeud n'est pas installé.</i></p><p>Voir l'onglet Info pour plus d'informations</p>"
     },
     "mqtt": {
         "label": {
-            "broker": "Server",
-            "example": "e.g. localhost",
+            "broker": "Serveur",
+            "example": "ex. localhost",
             "qos": "QoS",
-            "clientid": "Client ID",
+            "clientid": "ID Client",
             "port": "Port",
             "keepalive": "Keep alive time (s)",
-            "cleansession": "Use clean session",
-            "use-tls": "Enable secure (SSL/TLS) connection",
-            "tls-config":"TLS Configuration",
-            "verify-server-cert":"Verify server certificate",
-            "compatmode": "Use legacy MQTT 3.1 support"
+            "cleansession": "Utiliser un session vierge",
+            "use-tls": "Activer une connection sécurisée (SSL/TLS)",
+            "tls-config":"Configuration TLS",
+            "verify-server-cert":"Vérifier le certificat du serveur",
+            "compatmode": "Utiliser le mode de compatibilité MQTT 3.1"
         },
         "tabs-label": {
-            "connection": "Connection",
-            "security": "Security",
-            "will": "Will Message",
-            "birth": "Birth Message"
+            "connection": "Connexion",
+            "security": "Sécurité",
+            "will": "Message Will",
+            "birth": "Message Birth"
         },
         "placeholder": {
-            "clientid": "Leave blank for auto generated",
-            "clientid-nonclean":"Must be set for non-clean sessions",
-            "will-topic": "Leave blank to disable will message",
-            "birth-topic": "Leave blank to disable birth message"
+            "clientid": "Laissez vide pour générer automatiquement",
+            "clientid-nonclean":"Doit être configuré pour les sessions non vierges",
+            "will-topic": "Laissez vide pour désactiver le message Will",
+            "birth-topic": "Laissez vide pour désactiver le message Birth"
         },
         "state": {
-            "connected": "Connected to broker: __broker__",
-            "disconnected": "Disconnected from broker: __broker__",
-            "connect-failed": "Connection failed to broker: __broker__"
+            "connected": "Connecté au broker: __broker__",
+            "disconnected": "Déconnecté du broker: __broker__",
+            "connect-failed": "Connexion au broker échouée: __broker__"
         },
         "retain": "Retain",
-        "true": "true",
-        "false": "false",
-        "tip": "Tip: Leave topic, qos or retain blank if you want to set them via msg properties.",
+        "true": "vrai",
+        "false": "faux",
+        "tip": "Tip: Laissez les champs topic, qos ou retain vides si vous voulez les configurer via les propriétés du msg.",
         "errors": {
-            "not-defined": "topic not defined",
-            "missing-config": "missing broker configuration",
-            "invalid-topic": "Invalid topic specified",
-            "nonclean-missingclientid": "No client ID set, using clean session"
+            "not-defined": "pas de topic défini",
+            "missing-config": "configuration du broker absente",
+            "invalid-topic": "Topic invalide spécifié",
+            "nonclean-missingclientid": "Pas d'ID client configuré, session vierge utilisée"
         }
     },
     "httpin": {
         "label": {
-            "method": "Method",
+            "method": "Méthode",
             "url": "URL",
             "doc": "Docs",
-            "return": "Return",
-            "upload": "Accept file uploads?",
-            "status": "Status code",
-            "headers": "Headers",
-            "other": "other"
+            "return": "Retour",
+            "upload": "Accepter les téléversements de fichiers?",
+            "status": "Code de statut",
+            "headers": "En-têtes",
+            "other": "autre"
         },
-        "setby": "- set by msg.method -",
-        "basicauth": "Use basic authentication",
-        "use-tls": "Enable secure (SSL/TLS) connection",
-        "tls-config":"TLS Configuration",
-        "utf8": "a UTF-8 string",
-        "binary": "a binary buffer",
-        "json": "a parsed JSON object",
+        "setby": "- configuré par msg.method -",
+        "basicauth": "Utiliser l'authentification de base",
+        "use-tls": "Activer une connection sécurisée (SSL/TLS)",
+        "tls-config":"Configuration TLS",
+        "utf8": "une chaîne de caractères UTF-8",
+        "binary": "un tampon binaire",
+        "json": "un objet JSON converti",
         "tip": {
-            "in": "The url will be relative to ",
-            "res": "The messages sent to this node <b>must</b> originate from an <i>http input</i> node",
-            "req": "Tip: If the JSON parse fails the fetched string is returned as-is."
+            "in": "l'url sera relative à ",
+            "res": "Les messages envoyés à ce noeud <b>doivent</b> provenir d'un noeud <i>http input</i>",
+            "req": "Tip: Si la conversion JSON échoue, la chaîne de caractères sera retournée telle quelle."
         },
-        "httpreq": "http request",
+        "httpreq": "requête http",
         "errors": {
-            "not-created": "Cannot create http-in node when httpNodeRoot set to false",
-            "missing-path": "missing path",
-            "no-response": "No response object",
-            "json-error": "JSON parse error",
-            "no-url": "No url specified",
-            "deprecated-call":"Deprecated call to __method__",
-            "invalid-transport":"non-http transport requested"
+            "not-created": "Le noeud http-in ne peut pas être créé quand httpNodeRoot est configuré à false",
+            "missing-path": "chemin manquant",
+            "no-response": "Pas d'objet réponse",
+            "json-error": "Erreur de conversion JSON",
+            "no-url": "Pas d'url spécifié",
+            "deprecated-call":"Appel de la méthode __method__ n'est plus supporté",
+            "invalid-transport":"transport non-http demandé"
         },
         "status": {
-            "requesting": "requesting"
+            "requesting": "demande"
         }
     },
     "websocket": {
         "label": {
             "type": "Type",
-            "path": "Path",
+            "path": "Chemin",
             "url": "URL"
         },
-        "listenon": "Listen on",
-        "connectto": "Connect to",
-        "payload": "Send/Receive payload",
-        "message": "Send/Receive entire message",
+        "listenon": "Écouter sur",
+        "connectto": "Connecter à",
+        "payload": "Envoyer/Recevoir payload",
+        "message": "Envoyer/Recevoir message complet",
         "tip": {
             "path1": "By default, <code>payload</code> will contain the data to be sent over, or received from a websocket. The listener can be configured to send or receive the entire message object as a JSON formatted string.",
             "path2": "This path will be relative to ",
